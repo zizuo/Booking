@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // Status bar tint color
+
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
         return true
     }
 
@@ -36,6 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
     }
 
     func applicationWillTerminate(application: UIApplication) {
@@ -43,6 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
+    
 
     // MARK: - Core Data stack
 

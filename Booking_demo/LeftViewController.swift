@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+// comment for git commit test
 public class LeftViewController: UITableViewController{
     
     public var cellLabels = ["Найти", "Войти или создать аккаунт", "Бронирования", "Просмотренные", "Ваши путеводители", "Списки", "История поиска", "Настройки", "Salman", "Iskender"]

@@ -114,7 +114,7 @@
 - (void)setupDurationEndLabel {
     self.durationEndLabel = [UILabel new];
 
-    self.durationEndLabel.text = @"Дата отъезда";
+    self.durationEndLabel.text = @"Check-out Date";
     self.durationEndLabel.textAlignment = NSTextAlignmentCenter;
     self.durationEndLabel.textColor = self.durationLabelForegroundColor;
     self.durationEndLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
@@ -127,7 +127,7 @@
 - (void)setupDurationStartLabel {
     self.durationStartLabel = [UILabel new];
     
-    self.durationStartLabel.text = @"Дата заезда";
+    self.durationStartLabel.text = @"Check-in Date";
     self.durationStartLabel.textAlignment = NSTextAlignmentCenter;
     self.durationStartLabel.textColor = self.durationLabelForegroundColor;
     self.durationStartLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:14];

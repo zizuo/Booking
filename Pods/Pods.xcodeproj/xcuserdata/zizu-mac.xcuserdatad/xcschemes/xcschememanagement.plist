@@ -44,7 +44,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-Booking_demo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -97,12 +97,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0F2E3FCB825149269BE7F4294AA0639E</key>
+		<key>137F86F97BC042E663121F61DC3EBE5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2082FE428B6015DB09F339E9BCC58A48</key>
+		<key>1488463FAE0EBC6F8DE7F31FE06C74B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,12 +112,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>346E1CB077244DC815439C3FEA55D42D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>36D31D789AF9A447422E48AF4B79E6D3</key>
+		<key>35A739878358F693309060BD85188252</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -127,17 +122,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>44D26B16B4C10F3F2CA96AAF3CF12DB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>617B0FC57CCB604D47A24E6198763D04</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6E00972455D349D141A49DA7CFC0DFB2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>759139DB267D7936F1C60B2963279AA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -157,17 +147,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D214E75B506E5E927F4811609DE18EF</key>
+		<key>A311841D9C64A9AB2A6D029D810DC06E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B36E607565AB6440BC49289CCF95FCDF</key>
+		<key>BAD17A49D5F8A96DB9D0549168C2803D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DD9329FBC2CBD6238B9A466CB437C7B3</key>
+		<key>BB8EF2126F604EE8AC9AB5341344F9E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF70557514F3CD0B373E1FEAFB238B97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3652FF4A322D126F53C266BC1DEB080</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -177,7 +177,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F41373B2415A99B5DD8DF7B9DF89D5D5</key>
+		<key>F5A1491E9ABF13FA524972D03202FCA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

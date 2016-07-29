@@ -1,0 +1,6 @@
+framework module CXDurationPicker {
+  umbrella header "CXDurationPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

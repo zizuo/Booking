@@ -96,8 +96,7 @@ public class LeftViewController: UITableViewController{
             let information = storyboard.instantiateViewControllerWithIdentifier("InformationViewController") as! InformationViewController
             self.navigationController?.pushViewController(information, animated: true)
         default:
-            print("default")
-        }
+            print("default")        }
     }
     
     

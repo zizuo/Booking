@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1B942B3DDBF062147660AA87'
+               BlueprintIdentifier = '3EA05976B354B1399B6D65FE423D56A4'
                BlueprintName = 'CXDurationPicker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CXDurationPicker.framework'>

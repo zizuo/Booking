@@ -3,6 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
+target ‘Booking_demo’ do
 pod 'SidebarOverlay'
 pod 'Popover'
 pod 'CVCalendarKit', '~> 0.1.5'
@@ -18,3 +19,4 @@ pod ‘TTRangeSlider’
 pod 'SKPhotoBrowser'
 pod 'CXDurationPicker', "~> 0.16.0"
 pod 'CXTabView', '~> 0.3.2'
+end

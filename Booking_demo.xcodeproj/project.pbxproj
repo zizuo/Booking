@@ -44,7 +44,7 @@
 		3FFBB1111C6C425400C259ED /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB1101C6C425400C259ED /* UIColorExtension.swift */; };
 		3FFBB1131C6C503F00C259ED /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB1121C6C503F00C259ED /* LeftViewController.swift */; };
 		3FFBB1151C6C568B00C259ED /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBB1141C6C568B00C259ED /* UIViewControllerExtension.swift */; };
-		588F77855FC0817EE21C86A1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E163E55B804FE43A3DF5AFD /* Pods.framework */; };
+		5DCE0341A0DB94B3D57411A6 /* Pods_Booking_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0BC517910B790C84C71C3F /* Pods_Booking_demo.framework */; };
 		8F01FBC21CBFA34A007A4FFE /* SingleHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01FBC11CBFA34A007A4FFE /* SingleHotelViewController.swift */; };
 		8F08DB861CBEB50D00057292 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBA7D8E1C900FDD000DBCFE /* QuartzCore.framework */; };
 		8F08DB871CBEB51D00057292 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDD72381CA2AD9100B6D862 /* CoreLocation.framework */; };
@@ -121,7 +121,7 @@
 		3FFBB1121C6C503F00C259ED /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		3FFBB1141C6C568B00C259ED /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		4E163E55B804FE43A3DF5AFD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69842658CFD33FF170205CD4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6F0BC517910B790C84C71C3F /* Pods_Booking_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booking_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F01FBC11CBFA34A007A4FFE /* SingleHotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleHotelViewController.swift; sourceTree = "<group>"; };
 		8F0BE9C81CABBF1F006DB4ED /* CustomPickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerDialog.swift; sourceTree = "<group>"; };
 		8F39CCE11CA3B9D5003C14A3 /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
@@ -131,7 +131,8 @@
 		8FC7F3121C9FE4C100A8E9D4 /* HotelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelCollectionViewCell.xib; sourceTree = "<group>"; };
 		8FDD72361CA285A800B6D862 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
 		8FDD72381CA2AD9100B6D862 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		E2190370855F8435A205AD8C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		93E7D2C20132CAA42B198A73 /* Pods-Booking_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booking_demo/Pods-Booking_demo.release.xcconfig"; sourceTree = "<group>"; };
+		9F0E042D2E9FB7ADEF1F60E4 /* Pods-Booking_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booking_demo/Pods-Booking_demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +142,7 @@
 			files = (
 				8F08DB871CBEB51D00057292 /* CoreLocation.framework in Frameworks */,
 				8F08DB861CBEB50D00057292 /* QuartzCore.framework in Frameworks */,
-				588F77855FC0817EE21C86A1 /* Pods.framework in Frameworks */,
+				5DCE0341A0DB94B3D57411A6 /* Pods_Booking_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,8 +179,8 @@
 				3F2CF5EE1C6B479F009B0CA4 /* Booking_demoTests */,
 				3F2CF5F91C6B479F009B0CA4 /* Booking_demoUITests */,
 				3F2CF5D51C6B479F009B0CA4 /* Products */,
-				7E68C2205537972C7B152109 /* Pods */,
 				AD13C9BEEFE84BA733CF27FC /* Frameworks */,
+				EA0AB7F0504BCDFCA8583462 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -331,15 +332,6 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
-		7E68C2205537972C7B152109 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				69842658CFD33FF170205CD4 /* Pods.debug.xcconfig */,
-				E2190370855F8435A205AD8C /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		8F39CCDF1CA3A48B003C14A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,8 +349,18 @@
 				8FDD72381CA2AD9100B6D862 /* CoreLocation.framework */,
 				3FBA7D8E1C900FDD000DBCFE /* QuartzCore.framework */,
 				4E163E55B804FE43A3DF5AFD /* Pods.framework */,
+				6F0BC517910B790C84C71C3F /* Pods_Booking_demo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0AB7F0504BCDFCA8583462 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E042D2E9FB7ADEF1F60E4 /* Pods-Booking_demo.debug.xcconfig */,
+				93E7D2C20132CAA42B198A73 /* Pods-Booking_demo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,12 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2CF5FF1C6B479F009B0CA4 /* Build configuration list for PBXNativeTarget "Booking_demo" */;
 			buildPhases = (
-				8D6CC50E56D66D43F1A5C170 /* Check Pods Manifest.lock */,
+				5C15A70CDC9CD0A1762ABCAB /* [CP] Check Pods Manifest.lock */,
 				3F2CF5D01C6B479F009B0CA4 /* Sources */,
 				3F2CF5D11C6B479F009B0CA4 /* Frameworks */,
 				3F2CF5D21C6B479F009B0CA4 /* Resources */,
-				535868EBA67ACFFC92E079DA /* Embed Pods Frameworks */,
-				417EE88C18677CA4CBC5365C /* Copy Pods Resources */,
+				917CBE17A5C8D02C00334430 /* [CP] Embed Pods Frameworks */,
+				32663E9A3CD3AD292FCC16DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -498,49 +500,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		417EE88C18677CA4CBC5365C /* Copy Pods Resources */ = {
+		32663E9A3CD3AD292FCC16DB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Booking_demo/Pods-Booking_demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		535868EBA67ACFFC92E079DA /* Embed Pods Frameworks */ = {
+		5C15A70CDC9CD0A1762ABCAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D6CC50E56D66D43F1A5C170 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		917CBE17A5C8D02C00334430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Booking_demo/Pods-Booking_demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -727,7 +729,7 @@
 		};
 		3F2CF6001C6B479F009B0CA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69842658CFD33FF170205CD4 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9F0E042D2E9FB7ADEF1F60E4 /* Pods-Booking_demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -748,7 +750,7 @@
 		};
 		3F2CF6011C6B479F009B0CA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2190370855F8435A205AD8C /* Pods.release.xcconfig */;
+			baseConfigurationReference = 93E7D2C20132CAA42B198A73 /* Pods-Booking_demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

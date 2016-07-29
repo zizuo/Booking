@@ -1,0 +1,63 @@
+PODS:
+  - APAvatarImageView (1.1.0)
+  - BBBadgeBarButtonItem (1.2)
+  - CryptoSwift (0.3)
+  - CVCalendarKit (0.1.5)
+  - CXDurationPicker (0.16.1)
+  - CXTabView (0.3.2)
+  - JGProgressHUD (1.3.1)
+  - Kingfisher (1.9.3)
+  - Popover (0.9.0)
+  - SidebarOverlay (2.1.2)
+  - SideMenu (1.0.3)
+  - SKPhotoBrowser (1.7.6)
+  - SwiftyJSON (2.3.2)
+  - TTRangeSlider (1.0.3)
+  - XLPagerTabStrip (4.0.2)
+
+DEPENDENCIES:
+  - APAvatarImageView
+  - BBBadgeBarButtonItem
+  - CryptoSwift
+  - CVCalendarKit (~> 0.1.5)
+  - CXDurationPicker (~> 0.16.0)
+  - CXTabView (~> 0.3.2)
+  - JGProgressHUD
+  - Kingfisher (~> 1.4)
+  - Popover
+  - SidebarOverlay
+  - SideMenu
+  - SKPhotoBrowser
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - TTRangeSlider
+  - XLPagerTabStrip (~> 4.0)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  APAvatarImageView: 428dbd0631a150fe876f90bfd7eaa275a19b9209
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  CryptoSwift: 19d29910d88440fcb132761d9ab57e175f1b0d0e
+  CVCalendarKit: 32de9f29fe1b6e0fbd2a8bfb2ef97cbcba666b55
+  CXDurationPicker: d3ead2c7efce33f6800a95f093e260699d3ce767
+  CXTabView: 07828630f993733fb9638d2aa95e773b40ea26f4
+  JGProgressHUD: 153053a21d81208cb5f659691996bcefce6a9885
+  Kingfisher: 9e37d2a78a082dc123bfe8a16de65de85518daae
+  Popover: e5a2cbfa29bb982c95cff0d7eb94f47173dbfbcc
+  SidebarOverlay: c01667e672d5884a3c322e411f2195c24a09d31e
+  SideMenu: 166ea23f143a8df84d0cf2170057793e26f0ba9e
+  SKPhotoBrowser: e4ed63940e2b4241971e393db6031a62b62e2d87
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TTRangeSlider: a12d0ac242a785cf96d4c7dacfe07e42a161251e
+  XLPagerTabStrip: 5aee1990f16ae04b7285fe83befca7dbb259ec57
+
+PODFILE CHECKSUM: 5684eea12316f7133e27a01b5933054315a09e23
+
+COCOAPODS: 1.0.1

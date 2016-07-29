@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9E81826A2967186DE9156CB4'
+               BlueprintIdentifier = '99AEA9AC0B269365FCE0B2D0F44D6067'
                BlueprintName = 'CXTabView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'CXTabView.framework'>

@@ -1,0 +1,6 @@
+framework module CXTabView {
+  umbrella header "CXTabView-umbrella.h"
+
+  export *
+  module * { export * }
+}

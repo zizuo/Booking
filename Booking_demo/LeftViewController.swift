@@ -62,41 +62,32 @@ public class LeftViewController: UITableViewController{
         let cell = tableView.cellForRowAtIndexPath(indexPath)
         print("\(cell!.textLabel?.text) selected>>>")
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        var vc = UIViewController()
         
         switch(indexPath.row){
         case 0:
-            print("case 0 working")
-            let find = storyboard.instantiateViewControllerWithIdentifier("MainViewController") as!MainViewController
-            self.navigationController?.pushViewController(find, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("MainViewController") as!MainViewController
         case 1:
-            let account = storyboard.instantiateViewControllerWithIdentifier("AccountViewController") as! AccountViewController
-            self.navigationController?.pushViewController(account, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("AccountViewController") as! AccountViewController
         case 2:
-            let booking = storyboard.instantiateViewControllerWithIdentifier("BookingViewController") as! BookingViewController
-            self.navigationController?.pushViewController(booking, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("BookingViewController") as! BookingViewController
         case 3:
-            let seen = storyboard.instantiateViewControllerWithIdentifier("SeenViewController") as! SeenViewController
-            self.navigationController?.pushViewController(seen, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("SeenViewController") as! SeenViewController
         case 4:
-            let feedBack = storyboard.instantiateViewControllerWithIdentifier("GuideViewCotroller") as! GuideViewCotroller
-            self.navigationController?.pushViewController(feedBack, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("GuideViewCotroller") as! GuideViewCotroller
         case 5:
-            let lists = storyboard.instantiateViewControllerWithIdentifier("ListsViewController") as! ListsViewController
-            self.navigationController?.pushViewController(lists, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("ListsViewController") as! ListsViewController
         case 6:
-            let searchHistory = storyboard.instantiateViewControllerWithIdentifier("SearchHistoryViewController") as! SearchHistoryViewController
-            self.navigationController?.pushViewController(searchHistory, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("SearchHistoryViewController") as! SearchHistoryViewController
         case 7:
-            let settings = storyboard.instantiateViewControllerWithIdentifier("SettingsViewController") as! SettingsViewController
-            self.navigationController?.pushViewController(settings, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("SettingsViewController") as! SettingsViewController
         case 8:
-            let contactUs = storyboard.instantiateViewControllerWithIdentifier("ContactUsViewController") as! ContactUsViewController
-            self.navigationController?.pushViewController(contactUs, animated: true)
+            vc = storyboard.instantiateViewControllerWithIdentifier("ContactUsViewController") as! ContactUsViewController
         case 9:
-            let information = storyboard.instantiateViewControllerWithIdentifier("InformationViewController") as! InformationViewController
-            self.navigationController?.pushViewController(information, animated: true)
-        default:
-            print("default")        }
+            vc = storyboard.instantiateViewControllerWithIdentifier("InformationViewController") as! InformationViewController
+        default: break
+        }
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     

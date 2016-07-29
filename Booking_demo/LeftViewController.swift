@@ -1,15 +1,5 @@
-//
-//  LeftViewController.swift
-//  Booking_demo
-//
-//  Created by Ulukbek Saiipov on 2/11/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 
-// comment for git commit test
-// comment for branch test
 public class LeftViewController: UITableViewController{
     
     public var cellLabels = ["Найти", "Войти или создать аккаунт", "Бронирования", "Просмотренные", "Ваши путеводители", "Списки", "История поиска", "Настройки", "Salman", "Iskender"]

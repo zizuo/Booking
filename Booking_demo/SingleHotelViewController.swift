@@ -1,11 +1,3 @@
-//
-//  SingleHotelViewController.swift
-//  Booking_demo
-//
-//  Created by abakalbaev on 3/24/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import CVCalendarKit
 import SwiftyJSON

@@ -1,11 +1,3 @@
-//
-//  Hotel.swift
-//  Booking_demo
-//
-//  Created by Ata Ene on 3/24/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import Foundation
 import SwiftyJSON
 

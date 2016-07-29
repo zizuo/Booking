@@ -1,11 +1,3 @@
-//
-//  ISRadioButton.swift
-//  DaynamicForm
-//
-//  Created by Ishaq Shafiq on 09/12/2015.
-//  Copyright © 2015 TheGoal. All rights reserved.
-//
-
 import UIKit
 
 @IBDesignable

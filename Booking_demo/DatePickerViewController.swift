@@ -1,11 +1,3 @@
-//
-//  DatePickerViewController.swift
-//  Booking_demo
-//
-//  Created by abakalbaev on 3/29/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import CXTabView
 import CXDurationPicker

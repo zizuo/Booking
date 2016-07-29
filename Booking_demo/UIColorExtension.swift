@@ -1,11 +1,3 @@
-//
-//  UIColorExtension.swift
-//  Booking_demo
-//
-//  Created by Ulukbek Saiipov on 2/11/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 
 public extension UIColor{

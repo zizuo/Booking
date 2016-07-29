@@ -1,14 +1,3 @@
-//
-//  JSSAlertView
-//  JSSAlertView
-//
-//  Created by Jay Stakelon on 9/16/14.
-//  Copyright (c) 2014 Jay Stakelon / https://github.com/stakes  - all rights reserved.
-//
-//  Inspired by and modeled after https://github.com/vikmeup/SCLAlertView-Swift
-//  by Victor Radchenko: https://github.com/vikmeup
-//
-
 import Foundation
 import UIKit
 

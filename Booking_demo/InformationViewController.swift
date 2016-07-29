@@ -1,11 +1,3 @@
-//
-//  InformationViewController.swift
-//  Booking_demo
-//
-//  Created by Ulukbek Saiipov on 2/29/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import SideMenu
 

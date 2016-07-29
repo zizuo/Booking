@@ -1,11 +1,3 @@
-//
-//  HotelCollectionViewController.swift
-//  Booking_demo
-//
-//  Created by Ata Ene on 3/11/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import SwiftyJSON
 import Kingfisher

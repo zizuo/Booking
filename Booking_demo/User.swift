@@ -1,11 +1,3 @@
-//
-//  User.swift
-//  Booking_demo
-//
-//  Created by Ulukbek Saiipov on 2/24/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import Foundation
 import CVCalendarKit
 

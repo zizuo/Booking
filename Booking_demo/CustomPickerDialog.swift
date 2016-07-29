@@ -1,8 +1,3 @@
-//
-//  CustomPickerDialog.swift
-//
-//
-
 import UIKit
 
 class CustomPickerDialog: UIView {

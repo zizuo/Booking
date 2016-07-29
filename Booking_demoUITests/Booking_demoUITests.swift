@@ -1,11 +1,3 @@
-//
-//  Booking_demoUITests.swift
-//  Booking_demoUITests
-//
-//  Created by Ulukbek Saiipov on 2/10/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import XCTest
 
 class Booking_demoUITests: XCTestCase {

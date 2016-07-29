@@ -1,11 +1,3 @@
-//
-//  MainViewController.swift
-//  Booking_demo
-//
-//  Created by zizu-mac on 2/10/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import Popover
 import CVCalendarKit

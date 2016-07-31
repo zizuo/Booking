@@ -131,24 +131,13 @@ class AccountViewController: UIViewController{
                         User.sharedInstance.pictureUser = userData["avatar"].stringValue
                         User.sharedInstance.login = userData["login"].stringValue
                         
-                        //self.saveUserEmailAndPass()
-                        
                         self.passwordTextField.resignFirstResponder()
                         self.passwordTextField.text = ""
                         self.title = ""
-                        //HomeViewController().collectionView?.reloadData()
-                        
-                        
                         self.hud.dismiss()
-                        
+                    
                         LeftViewController().cellLabels[1] = "name"
-                        //let vc = (self.storyboard?.instantiateViewControllerWithIdentifier("LeftViewController")) as! LeftViewController
-    
                         self.changeStoryBoard()
-                        
-                        
-                        print("token: \(User.sharedInstance.token)")
-                        
                     })
             }
             else{
@@ -159,9 +148,6 @@ class AccountViewController: UIViewController{
                         self.passwordTextField.text = ""
                         JSSAlertView().show(self, title: "Ошибка авторизации", text: "Вы не авторизованы. Пожалуйста, проверьте свои электронный адрес и пароль.", buttonText: "OK")
                         })
-                    
-                    
-                    //JSSAlertView().show(self, title: "Ошибка авторизации", text: "Вы не авторизованы. Пожалуйста, проверьте свои электронный адрес и пароль.", buttonText: "OK")
             }
                 
                 

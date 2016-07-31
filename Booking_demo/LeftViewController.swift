@@ -2,7 +2,7 @@ import UIKit
 
 public class LeftViewController: UITableViewController{
     
-    public var cellLabels = ["Найти", "Войти или создать аккаунт", "Бронирования", "Просмотренные", "Ваши путеводители", "Списки", "История поиска", "Настройки", "Salman", "Iskender"]
+    public var cellLabels = ["Найти", "Войти или создать аккаунт", "Бронирования", "Просмотренные", "Ваши путеводители", "Списки", "История поиска", "Настройки", "Call centr", "Информация"]
     public var cellImages = ["search.png", "account.png", "case.png", "seen.png", "helper.png", "favor.png", "search.png", "settings.png", "call.png", "info.png"]
     
     override public func viewDidLoad() {
@@ -49,8 +49,6 @@ public class LeftViewController: UITableViewController{
 
     
     public override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = tableView.cellForRowAtIndexPath(indexPath)
-        print("\(cell!.textLabel?.text) selected>>>")
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         var vc = UIViewController()
         

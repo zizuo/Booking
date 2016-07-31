@@ -96,7 +96,6 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
 
                     self.collectionView.reloadData()
                     self.collectionView.setContentOffset(CGPointZero, animated: true)
-                    //print("\(dataJSON)>>>>>>")
                     
                 })
                 
@@ -149,8 +148,6 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
     //MARK: - Methods --------------------------------------
     //Get near hotels
     func callNearHotel() {
-                
-        print("\(self.lat)  .... \(self.lng)")
         getNearHotels()
     }
     
@@ -184,11 +181,6 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
             if let url = NSURL(string: thumb1_path){
                 cell.thumbImage.kf_setImageWithURL(url)
             }
-            
-            
-            //cell.labelPrice.text = "135 $"//newJSON["price_piece"].stringValue + " TRY"
-            
-            
         }
         
         cell.updateLayerProperties()
@@ -227,9 +219,7 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
         let vc = storyboard.instantiateViewControllerWithIdentifier("SingleHotelViewController") as! SingleHotelViewController
 
         
-        //print(images)
         vc.getHotelById(productId)
-        //vc.imagesJSON = self.images
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

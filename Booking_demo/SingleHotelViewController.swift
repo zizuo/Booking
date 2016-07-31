@@ -120,7 +120,6 @@ class SingleHotelViewController: UITableViewController, SKPhotoBrowserDelegate, 
         
         let request = HTTPTask()
         request.requestSerializer = HTTPRequestSerializer()
-        
         request.POST("\(API_IP)hotel/gethotelbyid", parameters: params, success: {(response : HTTPResponse) in
             
             if let data = response.responseObject as? NSData {
@@ -177,7 +176,6 @@ class SingleHotelViewController: UITableViewController, SKPhotoBrowserDelegate, 
     
     // MARK: - UICollectionViewDelegate
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        print("??????????")
         guard let cell = collectionView.cellForItemAtIndexPath(indexPath) as? ExampleCollectionViewCell else {
             return
         }
@@ -193,13 +191,6 @@ class SingleHotelViewController: UITableViewController, SKPhotoBrowserDelegate, 
         
         // Can hide the action button by setting to false
         browser.displayAction = true
-        
-        // delete action(you must write `removePhoto` delegate, what resource you want to delete)
-        // browser.displayDeleteButton = true
-        
-        // Optional action button titles (if left off, it uses activity controller
-        // browser.actionButtonTitles = ["Do One Action", "Do Another Action"]
-        
         presentViewController(browser, animated: true, completion: {})
     }
     

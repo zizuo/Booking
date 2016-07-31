@@ -58,9 +58,7 @@ class NewAccountTVC: UIViewController {
             let params: Dictionary<String,AnyObject> = [LANG: "ru", LOGIN: emailTextField.text!, PASSWORD: hash, EMAIL: emailTextField.text!, NAME: "name"]
             
             let request = HTTPTask()
-            request.requestSerializer = HTTPRequestSerializer()
-            //request.requestSerializer.headers["Authorization"] = "Bearer \(User.sharedInstance.token)"
-            
+            request.requestSerializer = HTTPRequestSerializer()            
             request.POST("\(API_IP)reg", parameters: params, success: {(response : HTTPResponse) in
                 
                 if let data = response.responseObject as? NSData {

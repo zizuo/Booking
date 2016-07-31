@@ -14,5 +14,3 @@ let OFFSET = "offset"
 
 let SOM = " сом"
 let KM = " км"
-
-        

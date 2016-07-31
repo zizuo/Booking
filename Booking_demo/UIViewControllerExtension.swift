@@ -72,10 +72,6 @@ extension UIViewController {
 
     // Setting Navigation Bar Logo
     func setNavigationBarLogo() {
-        //let logo = UIImage(named: "booking_logo.png")
-        //let imageView = UIImageView(image:logo)
-        //self.navigationItem.titleView = imageView
-        
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 20))
         imageView.contentMode = .ScaleAspectFit
         let image = UIImage(named: "booking_logo.png")

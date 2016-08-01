@@ -1,11 +1,3 @@
-//
-//  SingleHotelViewController.swift
-//  Booking_demo
-//
-//  Created by abakalbaev on 3/24/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import CVCalendarKit
 import SwiftyJSON
@@ -201,13 +193,6 @@ class SingleHotelViewController: UITableViewController, SKPhotoBrowserDelegate, 
         
         // Can hide the action button by setting to false
         browser.displayAction = true
-        
-        // delete action(you must write `removePhoto` delegate, what resource you want to delete)
-        // browser.displayDeleteButton = true
-        
-        // Optional action button titles (if left off, it uses activity controller
-        // browser.actionButtonTitles = ["Do One Action", "Do Another Action"]
-        
         presentViewController(browser, animated: true, completion: {})
     }
     
@@ -231,7 +216,6 @@ class SingleHotelViewController: UITableViewController, SKPhotoBrowserDelegate, 
     }
     
     func willShowActionSheet(photoIndex: Int) {
-        // do some handle if you need
     }
     
     func didDismissAtPageIndex(index: Int) {
@@ -239,7 +223,6 @@ class SingleHotelViewController: UITableViewController, SKPhotoBrowserDelegate, 
     }
     
     func didDismissActionSheetWithButtonIndex(buttonIndex: Int, photoIndex: Int) {
-        // handle dismissing custom actions
     }
     
     func removePhoto(browser: SKPhotoBrowser, index: Int, reload: (() -> Void)) {

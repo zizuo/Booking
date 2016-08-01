@@ -1,11 +1,3 @@
-//
-//  ProfileViewController.swift
-//  Booking_demo
-//
-//  Created by Ulukbek Saiipov on 3/9/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import APAvatarImageView
 

@@ -1,11 +1,3 @@
-//
-//  AccountViewController.swift
-//  Booking_demo
-//
-//  Created by Ulukbek Saiipov on 2/24/16.
-//  Copyright © 2016 Yaros. All rights reserved.
-//
-
 import UIKit
 import SideMenu
 import SwiftyJSON
@@ -34,10 +26,7 @@ class AccountViewController: UIViewController{
         super.viewDidLoad()
 
         self.hideKeyboardWhenTappedAround()
-        
-        // Status bar white font and tintColor
         self.navigationController?.navigationBar.barTintColor = UIColor(hexString: "#003580")
-        // Change the color of the navigation bar title text to blue.
         if User.sharedInstance.isLoggedIn {
             print("loggedIn")
         }else{

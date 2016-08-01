@@ -4,6 +4,7 @@ Pods/
 Podfile.lock
 
 .idea
+.xcuserstate
 
 ### Xcode ###
 Booking_demo.xcworkspace/

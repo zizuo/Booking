@@ -68,11 +68,9 @@ class AccountViewController: UIViewController{
     }
     
     @IBAction func logInByFacebookAction(sender: AnyObject) {
-        print("log in by facebook")
     }
     
     @IBAction func logInAction(sender: AnyObject) {
-        print("log in ")
         if emailTextField.text!.isEmail {
             if passwordTextField.text! != ""{
                 getUserLoginInfo()
@@ -87,21 +85,15 @@ class AccountViewController: UIViewController{
     }
     
     @IBAction func forgotPassAction(sender: AnyObject) {
-        print("forgot password")
-        
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyBoard.instantiateViewControllerWithIdentifier("ResetPassword") as! ResetPassword
-        
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func createAccountAction(sender: AnyObject) {
-        print("create account")
-        
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier("NewAccountTVC") as! NewAccountTVC
         vc.title = "Создайте аккаунт"
-        
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -127,7 +119,6 @@ class AccountViewController: UIViewController{
                 
                 if userMeta["status"] == "SUCCESS" {
                     
-                    print("login success")
                     dispatch_async(dispatch_get_main_queue(), {
                         self.containerViewAccount.hidden = false
                         
@@ -153,17 +144,11 @@ class AccountViewController: UIViewController{
                         //let vc = (self.storyboard?.instantiateViewControllerWithIdentifier("LeftViewController")) as! LeftViewController
     
                         self.changeStoryBoard()
-                        
-                        
-                        print("token: \(User.sharedInstance.token)")
-                        
                     })
             }
             else{
                     dispatch_async(dispatch_get_main_queue(),{
-                        print("login fail")
                         self.hud.dismiss()
-                        print(userMeta)
                         self.passwordTextField.text = ""
                         JSSAlertView().show(self, title: "Ошибка авторизации", text: "Вы не авторизованы. Пожалуйста, проверьте свои электронный адрес и пароль.", buttonText: "OK")
                         })

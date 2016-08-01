@@ -59,13 +59,10 @@ public class LeftViewController: UITableViewController{
 
     
     public override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = tableView.cellForRowAtIndexPath(indexPath)
-        print("\(cell!.textLabel?.text) selected>>>")
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         switch(indexPath.row){
         case 0:
-            print("case 0 working")
             let find = storyboard.instantiateViewControllerWithIdentifier("MainViewController") as!MainViewController
             self.navigationController?.pushViewController(find, animated: true)
         case 1:
@@ -96,7 +93,8 @@ public class LeftViewController: UITableViewController{
             let information = storyboard.instantiateViewControllerWithIdentifier("InformationViewController") as! InformationViewController
             self.navigationController?.pushViewController(information, animated: true)
         default:
-            print("default")        }
+            print("default")
+        }
     }
     
     

@@ -76,8 +76,6 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
             }
             
             }, failure: {(error : NSError, response : HTTPResponse?) in
-                print("error: \(error)")
-                
                 dispatch_async(dispatch_get_main_queue(), {
 
                 })
@@ -104,15 +102,11 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
 
                     self.collectionView.reloadData()
                     self.collectionView.setContentOffset(CGPointZero, animated: true)
-                    //print("\(dataJSON)>>>>>>")
-                    
                 })
                 
             }
             
             }, failure: {(error : NSError, response : HTTPResponse?) in
-                print("error: \(error)")
-                
                 dispatch_async(dispatch_get_main_queue(), {
                     
                 })
@@ -157,8 +151,6 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
     //MARK: - Methods --------------------------------------
     //Get near hotels
     func callNearHotel() {
-                
-        print("\(self.lat)  .... \(self.lng)")
         getNearHotels()
     }
     
@@ -234,10 +226,7 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier("SingleHotelViewController") as! SingleHotelViewController
 
-        
-        //print(images)
         vc.getHotelById(productId)
-        //vc.imagesJSON = self.images
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -251,7 +240,6 @@ class HotelCollectionViewController: UIViewController, UICollectionViewDataSourc
         pickerView.setDataSource(arrayDataSource)
         
         pickerView.showDialog("Сортировать:", doneButtonTitle: "Готово", cancelButtonTitle: "Отмена") { (result) -> Void in
-            print(result)
             switch result {
                 case "Популярность":
                     User.sharedInstance.sort = 1

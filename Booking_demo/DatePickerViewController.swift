@@ -45,16 +45,12 @@ class DatePickerViewController: UIViewController, CXTabViewDelegate, CXDurationP
     func durationPicker(durationPicker: CXDurationPickerView, endDateChanged pickerDate: CXDurationPickerDate) {
         self.tabView.durationEndString = CXDurationPickerUtils.stringFromPickerDate(pickerDate)
         User.sharedInstance.dateOut = CXDurationPickerUtils.dateFromPickerDate(pickerDate)
-        //User.sharedInstance.dateOut = User.sharedInstance.dateOut.day + 1
-        //print("\(User.sharedInstance.dateOut)------------")
     }
     
     
     func durationPicker(durationPicker: CXDurationPickerView, startDateChanged pickerDate: CXDurationPickerDate) {
         self.tabView.durationStartString = CXDurationPickerUtils.stringFromPickerDate(pickerDate)
         User.sharedInstance.dateIn = CXDurationPickerUtils.dateFromPickerDate(pickerDate)
-        //User.sharedInstance.dateIn = User.sharedInstance.dateIn.day + 1
-        //print("\(User.sharedInstance.dateIn)------------")
     }
     
     //MARK: - CXDurationPickerViewDelegate Optionals --------------------------------------------
@@ -72,10 +68,8 @@ class DatePickerViewController: UIViewController, CXTabViewDelegate, CXDurationP
     func synchronizeRange() {
         let startDate: CXDurationPickerDate = self.picker.startDate
         self.tabView.durationStartString = CXDurationPickerUtils.stringFromPickerDate(startDate)
-        print("\(startDate)>>>>>>>>")
         let endDate: CXDurationPickerDate = self.picker.endDate
         self.tabView.durationEndString = CXDurationPickerUtils.stringFromPickerDate(endDate)
-        print("\(endDate)<<<<<<<<<")
     }
     
     func setPicker() {

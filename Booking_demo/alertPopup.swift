@@ -15,11 +15,9 @@ class alertPopup: UIView {
 
 
     @IBAction func logIn(sender: AnyObject) {
-        print("login.......")
     }
     
     @IBAction func createAccount(sender: AnyObject) {
-        print("createAccount.......")
     }
 
 }

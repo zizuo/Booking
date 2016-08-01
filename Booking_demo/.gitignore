@@ -4,7 +4,6 @@ Pods/
 Podfile.lock
 
 .idea
-.xcuserstate
 
 ### Xcode ###
 Booking_demo.xcworkspace/
@@ -28,3 +27,4 @@ DerivedData
 *.ipa
 # CocoaPods
 Contact GitHub API Training Shop Blog About
+.xcuserstate

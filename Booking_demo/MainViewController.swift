@@ -41,9 +41,7 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
-        
         setButtonOptions()
-
         //Get location
         updateLocation()
 
@@ -51,7 +49,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
         setDate()
         
         //SideMenu Customization
@@ -79,7 +76,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
 
     
     //MARK:- Actions ---------------------
-    //Near me hotels
     @IBAction func nearMeHotels(sender: AnyObject) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier("HotelCollectionViewController") as! HotelCollectionViewController
@@ -92,7 +88,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
     }
     //Search bar
     @IBAction func nearButton(sender: AnyObject) {
-        print("clicked...")
     }
     
     //Registration date
@@ -107,8 +102,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
     
     //Room, adult and child
     @IBAction func roomAdultChildButton(sender: AnyObject) {
-        
-        print("roomAdultChild clicked......")
     }
     
     //Find the hotels
@@ -119,10 +112,8 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
         User.sharedInstance.price = Int(self.rangeSlider.selectedMaximum)
         User.sharedInstance.geo = searchTextField.text!
         vc.getHotels()
-        print("\(self.rating.rating).......\(self.rangeSlider.selectedMaximum)<><><><><>")
         vc.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         self.navigationController?.pushViewController(vc, animated: true)
-        print("findButton clicked........")
     }
     
     //Trip purpose: business or travel
@@ -132,7 +123,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
                 print("\(radioButton.titleLabel?.text) is selected.\n");
             }
         }else{
-            print("%@ is selected.\n", isRadioButton.titleLabel?.text);
         }
     }
     
@@ -175,9 +165,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
         let location = locations.last! as CLLocation
         self.lng = location.coordinate.longitude
         self.lat = location.coordinate.latitude
-        
-        print("didUpdateLocations:  \(location.coordinate.latitude), \(location.coordinate.longitude)")
-        
     }
     
     
@@ -185,7 +172,6 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
         let startPoint = CGPoint(x: self.view.frame.width - 28, y: 55) // old x: -82
         let aView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.width))
         mysubView = AlertPopupNew(frame : CGRect(x: 10, y: 10, width: self.view.frame.width - 50, height: self.view.frame.height - 90))
-        
         
         mysubView.logInButton?.layer.cornerRadius = 3
         mysubView.createAccountButton?.layer.cornerRadius = 3
@@ -195,31 +181,22 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
         aView.addSubview(mysubView)
         let popover = Popover()
         popover.show(aView, point: startPoint)
-        print("methodAlert")
     }
     
     // function option button
     func methodOption() {
         let startPoint = CGPoint(x: self.view.frame.width - 30, y: 55)
-        //let aView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width / 2.5 , height: 80))
         let options = [
             .Type(.Down),
             .ArrowSize(CGSizeZero)
             ] as [PopoverOption]
-
-        //let popover = Popover(options: options, showHandler: nil, dismissHandler: nil)
-        //popover.show(aView, point: startPoint)
-        
-        //////
         let tableView = UITableView(frame: CGRect(x: 0, y: 0, width: 100, height: 40))
         tableView.delegate = self
         tableView.dataSource = self
         tableView.scrollEnabled = false
         self.popover = Popover(options: options, showHandler: nil, dismissHandler: nil)
         self.popover.show(tableView, point: startPoint)
-        
-        print("methodOption")
-    }
+        }
 }
 
 
@@ -227,13 +204,11 @@ class MainViewController: UIViewController, CLLocationManagerDelegate {
     extension MainViewController : UITableViewDelegate {
         
         func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-            print("valyuta selected")
             self.popover.dismiss()
         }
     }
     
     extension MainViewController : UITableViewDataSource {
-        
         func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
             return 1
         }

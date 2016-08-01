@@ -55,6 +55,7 @@
 		8FC7F3131C9FE4C100A8E9D4 /* HotelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7F3111C9FE4C100A8E9D4 /* HotelCollectionViewCell.swift */; };
 		8FC7F3141C9FE4C100A8E9D4 /* HotelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC7F3121C9FE4C100A8E9D4 /* HotelCollectionViewCell.xib */; };
 		8FDD72371CA285A800B6D862 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD72361CA285A800B6D862 /* FloatRatingView.swift */; };
+		8FED9F671D4F3FDE00AC8EC2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8FED9F661D4F3FDE00AC8EC2 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,7 @@
 		8FC7F3121C9FE4C100A8E9D4 /* HotelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelCollectionViewCell.xib; sourceTree = "<group>"; };
 		8FDD72361CA285A800B6D862 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
 		8FDD72381CA2AD9100B6D862 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8FED9F661D4F3FDE00AC8EC2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		93E7D2C20132CAA42B198A73 /* Pods-Booking_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Booking_demo/Pods-Booking_demo.release.xcconfig"; sourceTree = "<group>"; };
 		9F0E042D2E9FB7ADEF1F60E4 /* Pods-Booking_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Booking_demo/Pods-Booking_demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,6 +203,7 @@
 				3F2CF60C1C6B5B29009B0CA4 /* Contoller */,
 				3F2CF60B1C6B5B23009B0CA4 /* View */,
 				3F2CF60A1C6B5B1B009B0CA4 /* Model */,
+				8FED9F661D4F3FDE00AC8EC2 /* .gitignore */,
 			);
 			path = Booking_demo;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				3F2CF5E21C6B479F009B0CA4 /* Assets.xcassets in Resources */,
 				8FC7F3141C9FE4C100A8E9D4 /* HotelCollectionViewCell.xib in Resources */,
 				3F2CF5DD1C6B479F009B0CA4 /* Main.storyboard in Resources */,
+				8FED9F671D4F3FDE00AC8EC2 /* .gitignore in Resources */,
 				3FDF85901C7AB9310084C0EA /* alertPopup.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
